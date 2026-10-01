@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+  --fawn:#E7AE75;
+  --wheat:#F6DFB3;
+  --misty:#F6D6D3;
+  --salmon:#F28AA1;
+  --marrom:#613c2a;
+  --rose-light:#FFF3F4;
+  --cream:#FFFBF6;
+  --ink:#714E55;
+  --ink-soft:#8B6970;
+  --line:#F1C9CC;
+  --white:#FFFFFF;
+  --danger:#C95E68;
+}
+
+*{box-sizing:border-box}
+body{
+  font-family:'Poppins','Segoe UI',sans-serif !important;
+  color:var(--ink) !important;
+  background:linear-gradient(180deg,var(--cream) 0%,#FFF7F4 55%,var(--misty) 100%) !important;
+}
+
+/* Cabeçalho */
+.header-loja,
+.logo-loja,
+header.logo-loja,
+div.header-loja{
+  background:var(--cream) !important;
+  box-shadow:0 5px 18px rgba(242,138,161,.12) !important;
+}
+
+/* Estrutura das telas CRUD */
+.container-master,
+.conteudo-principal{
+  color:var(--ink) !important;
+}
+
+h1,h2,h3,h4,
+.form-section h2,
+.list-section h2{
+  color:var(--marrom) !important;
+}
+
+.form-section,
+.list-section,
+.table-container,
+.message-container,
+.modal-content,
+.dados-pedido,
+.resumo-pagamento,
+.detalhes-pedido{
+  background:rgba(255,255,255,.94) !important;
+  border-color:var(--line) !important;
+  box-shadow:0 8px 24px rgba(242,138,161,.10) !important;
+}
+
+input,select,textarea{
+  background:#FFFDFC !important;
+  border-color:#EACFD1 !important;
+  color:var(--ink) !important;
+}
+input:focus,select:focus,textarea:focus{
+  border-color:var(--salmon) !important;
+  box-shadow:0 0 0 3px rgba(242,138,161,.16) !important;
+  outline:none !important;
+}
+
+.btn-save,.btn-primary,.btn-visualizar,.adicionar-produto{
+  background:var(--salmon) !important;
+  border-color:var(--salmon) !important;
+  color:white !important;
+}
+.btn-save:hover,.btn-primary:hover,.btn-visualizar:hover,.adicionar-produto:hover{
+  background:var(--marrom) !important;
+}
+
+.btn-secondary,.btn-cancel{
+  background:var(--misty) !important;
+  border-color:#EABEC3 !important;
+  color:var(--ink) !important;
+}
+.btn-secondary:hover,.btn-cancel:hover{
+  background:var(--wheat) !important;
+}
+
+.btn-danger,.btn-remover-produto{
+  background:#F3A0A9 !important;
+  border-color:#F3A0A9 !important;
+  color:#fff !important;
+}
+
+/* Tabelas */
+table thead th{
+  background:var(--misty) !important;
+  color:var(--ink) !important;
+}
+table tbody tr:nth-child(even){background:#FFF8F8 !important}
+table tbody tr:hover{background:#FFF0F2 !important}
+
+/* Mensagens */
+.success{background:#F3F8EC !important;color:#617451 !important;border-color:#D7E5C8 !important}
+.error{background:#FFF0F1 !important;color:#9D4D58 !important;border-color:#F1C5C9 !important}
+.message{background:var(--rose-light) !important;border-color:var(--line) !important;color:var(--ink) !important}
+
+/* Menu principal */
+.menu-grid{gap:1.2rem !important}
+.card-menu{
+  background:rgba(255,255,255,.96) !important;
+  border-color:#F0D4D7 !important;
+  color:var(--ink) !important;
+  box-shadow:0 10px 25px rgba(242,138,161,.10) !important;
+}
+.card-menu::after{background:linear-gradient(90deg,var(--salmon),var(--misty),var(--wheat)) !important}
+.card-menu:hover{border-color:var(--salmon) !important;box-shadow:0 16px 30px rgba(242,138,161,.16) !important}
+.card-icon{background:linear-gradient(135deg,#FFF0F2,#F6D6D3) !important}
+.card-menu h2{color:var(--marrom) !important}
+.card-menu p{color:var(--ink-soft) !important}
+.submenu-pedidos a{background:#FFF9F9 !important;border-color:#EACFD1 !important;color:var(--ink) !important}
+.submenu-pedidos a:hover{background:var(--misty) !important}
+
+footer{
+  background:linear-gradient(135deg,#D96F86,#E88EA0) !important;
+  border-top-color:var(--wheat) !important;
+}
+
+/* Detalhes de pedidos */
+.modal-header{background:var(--misty) !important;color:var(--ink) !important}
+.resumo-total,.total-pedido{background:var(--wheat) !important;color:var(--ink) !important}
+
+/* Pequenos acentos da paleta — marrom quase só como texto */
+.linha-id{background:#FFF7E9 !important;border-color:#F0D8B9 !important}
+
+@media(max-width:700px){
+  .form-section,.list-section{border-radius:16px !important}
+}

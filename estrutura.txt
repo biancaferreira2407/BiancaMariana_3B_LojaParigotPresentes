@@ -1,0 +1,92 @@
+.
+├── backend
+│   ├── controllers
+│   │   ├── cargoController.js
+│   │   ├── categoriaController.js
+│   │   ├── clienteController.js
+│   │   ├── formaPagamentoController.js
+│   │   ├── funcionarioController.js
+│   │   ├── pedidoController.js
+│   │   ├── pessoaController.js
+│   │   ├── produtoController.js
+│   │   └── unidadeMedidaController.js
+│   │
+│   ├── routes
+│   │   ├── cargoRoutes.js
+│   │   ├── categoriaRoutes.js
+│   │   ├── clienteRoutes.js
+│   │   ├── formaPagamentoRoutes.js
+│   │   ├── funcionarioRoutes.js
+│   │   ├── pedidoRoutes.js
+│   │   ├── pessoaRoutes.js
+│   │   ├── produtoRoutes.js
+│   │   └── unidadeMedidaRoutes.js
+│   ├── .env
+│   ├── database.js
+│   └── server.js
+│
+├── documentacao
+│   ├── dw_proj_3b.sql
+│   ├── INSTRUCOES.md
+│   └── postgres - parigotPresentes - public.png
+│   
+│
+├── frontend
+│   ├── cargo
+│   │   ├── cargo.css
+│   │   ├── cargo.html
+│   │   └── cargo.js
+│   ├── menu
+│   │   ├── menu.css
+│   │   ├── menu.html
+│   │   └── menu.js
+│   ├── pessoa
+│   │   ├── pessoa.css
+│   │   ├── pessoa.html
+│   │   └── pessoa.js
+│   ├── produto
+│   │   ├── produto.css
+│   │   ├── produto.html
+│   │   └── produto.js
+│   └── unidade_medida
+│       ├── unidade_medida.css
+│       ├── unidade_medida.html
+│       └── unidade_medida.js
+├── imagens
+│   ├── 1.jpeg
+│   ├── 2.jpeg
+│   ├── 3.jpeg
+│   ├── 4.png
+│   ├── 5.png
+│   ├── 6.jpeg
+│   ├── 7.jpeg
+│   ├── 8.png
+│   ├── 9.jpeg
+│   ├── 10.png
+│   ├── 11.jpeg
+│   ├── 12.png
+│   ├── 13.jpeg
+│   ├── 14.png
+│   ├── 15.png
+│   ├── 16.png
+│   ├── 17.jpeg
+│   ├── 18.jpeg
+│   ├── 19.jpeg
+│   ├── 20.jpeg
+│   ├── 21.png
+│   ├── 22.jpeg
+│   ├── 23.jpeg
+│   ├── 24.jpeg
+│   ├── 25.jpeg
+│   ├── header.png
+│   └── silhueta.jpeg
+├── node_modules
+├── .gitignore
+├── estrutura.txt
+├── criarEstrutura.sh
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
+
+11 directories, 54 files
